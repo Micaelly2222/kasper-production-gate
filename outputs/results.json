@@ -1,0 +1,728 @@
+{
+  "checked_at": "2026-10-13T09:00:00+00:00",
+  "policy_version": "1.0",
+  "summary": {
+    "total": 30,
+    "passed": 19,
+    "blocked": 11
+  },
+  "results": [
+    {
+      "id": "BR-01",
+      "client": "Northpeak Coffee",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "NP-CB-OAT"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 8,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-02",
+      "client": "Northpeak Coffee",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [],
+      "issues": [
+        {
+          "code": "INACTIVE_PRODUCT",
+          "evidence": "NP-TIN-HAZ is discontinued or inactive.",
+          "action": "Please replace 'Hazelnut Tin' with an active product."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 12,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 2
+      },
+      "clarification_message": "Hi Northpeak Coffee team — before we can schedule brief BR-02, please help us resolve the following:\n\n- Please replace 'Hazelnut Tin' with an active product.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-03",
+      "client": "Northpeak Coffee",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "NP-CB-ORG"
+      ],
+      "issues": [
+        {
+          "code": "BRAIN_PACKAGING",
+          "evidence": "Cup-led direction does not explicitly show the branded can or bag.",
+          "action": "Please update the visual direction to show the branded can or bag, rather than a generic cup alone."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 12,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 2
+      },
+      "clarification_message": "Hi Northpeak Coffee team — before we can schedule brief BR-03, please help us resolve the following:\n\n- Please update the visual direction to show the branded can or bag, rather than a generic cup alone.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-04",
+      "client": "Northpeak Coffee",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "NP-SUB"
+      ],
+      "issues": [],
+      "approvals": {
+        "rush": {
+          "by": "Louise",
+          "at": "2026-10-12T16:10:00Z",
+          "text": "Rush approved — Louise. Client has payday on the 16th."
+        }
+      },
+      "usage_before": {
+        "statics": 12,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 15,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-05",
+      "client": "Northpeak Coffee",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "NP-SUB"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 15,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 17,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-06",
+      "client": "Lumen Skin",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "LS-SER-VITC"
+      ],
+      "issues": [
+        {
+          "code": "BANNED_CLAIM",
+          "evidence": "copy_direction contains prohibited phrase 'before and after'.",
+          "action": "Please remove or rephrase 'before and after' under your brand's claims policy."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 6,
+        "videos": 1
+      },
+      "usage_after": {
+        "statics": 6,
+        "videos": 1
+      },
+      "clarification_message": "Hi Lumen Skin team — before we can schedule brief BR-06, please help us resolve the following:\n\n- Please remove or rephrase 'before and after' under your brand's claims policy.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-07",
+      "client": "Lumen Skin",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "LS-SER-VITC"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 6,
+        "videos": 1
+      },
+      "usage_after": {
+        "statics": 8,
+        "videos": 1
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-08",
+      "client": "Lumen Skin",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "LS-SPF50"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 8,
+        "videos": 1
+      },
+      "usage_after": {
+        "statics": 10,
+        "videos": 1
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-09",
+      "client": "Lumen Skin",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "LS-MOIST"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 10,
+        "videos": 1
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 1
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-10",
+      "client": "Lumen Skin",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "LS-KIT"
+      ],
+      "issues": [
+        {
+          "code": "PLATFORMS",
+          "evidence": "No valid platform supplied.",
+          "action": "Please confirm the target platform(s)."
+        },
+        {
+          "code": "FORMATS",
+          "evidence": "Formats need a positive aspect ratio, optionally followed by duration (e.g. 9:16 15s).",
+          "action": "Please specify the aspect ratio for each format."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 12,
+        "videos": 1
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 1
+      },
+      "clarification_message": "Hi Lumen Skin team — before we can schedule brief BR-10, please help us resolve the following:\n\n- Please confirm the target platform(s).\n- Please specify the aspect ratio for each format.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-11",
+      "client": "Ridge Outdoor",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "RO-PACK-28"
+      ],
+      "issues": [
+        {
+          "code": "DISCOUNT_LIMIT",
+          "evidence": "50% discount exceeds 30% cap.",
+          "action": "Please reduce the discount to at most 30%."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 5,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 5,
+        "videos": 2
+      },
+      "clarification_message": "Hi Ridge Outdoor team — before we can schedule brief BR-11, please help us resolve the following:\n\n- Please reduce the discount to at most 30%.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-12",
+      "client": "Ridge Outdoor",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "RO-PACK-28"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 5,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 7,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-13",
+      "client": "Ridge Outdoor",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "RO-TENT2"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 7,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 10,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-14",
+      "client": "Ridge Outdoor",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "RO-JKT-RAIN"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 10,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 10,
+        "videos": 3
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-15",
+      "client": "Ridge Outdoor",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "RO-BOTTLE"
+      ],
+      "issues": [
+        {
+          "code": "TURNAROUND",
+          "evidence": "Due 2026-10-14; earliest standard date is 2026-10-16. No applicable rush approval.",
+          "action": "Please move the due date to 2026-10-16 or later; for an earlier feasible date, we need rush approval from Louise."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 10,
+        "videos": 3
+      },
+      "usage_after": {
+        "statics": 10,
+        "videos": 3
+      },
+      "clarification_message": "Hi Ridge Outdoor team — before we can schedule brief BR-15, please help us resolve the following:\n\n- Please move the due date to 2026-10-16 or later; for an earlier feasible date, we need rush approval from Louise.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-16",
+      "client": "Pawfect Treats",
+      "status": "BLOCKED",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "PT-CHEW-DENT"
+      ],
+      "issues": [
+        {
+          "code": "QUOTA",
+          "evidence": "videos: 4 already used/reserved + 2 requested = 6, above plan 4.",
+          "action": "This request exceeds the remaining allowance for videos. Please reduce or defer that quantity, or arrange an overage approved by Bea A."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 7,
+        "videos": 4
+      },
+      "usage_after": {
+        "statics": 7,
+        "videos": 4
+      },
+      "clarification_message": "Hi Pawfect Treats team — before we can schedule brief BR-16, please help us resolve the following:\n\n- This request exceeds the remaining allowance for videos. Please reduce or defer that quantity, or arrange an overage approved by Bea A.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-17",
+      "client": "Pawfect Treats",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "PT-CHEW-DENT"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 7,
+        "videos": 4
+      },
+      "usage_after": {
+        "statics": 10,
+        "videos": 4
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-18",
+      "client": "Pawfect Treats",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "PT-BOX"
+      ],
+      "issues": [],
+      "approvals": {
+        "overage": {
+          "by": "Bea A.",
+          "at": "2026-10-12T15:05:00Z",
+          "text": "Overage approved by Bea A.: client signed the extra-video add-on (1 video, Oct)."
+        }
+      },
+      "usage_before": {
+        "statics": 10,
+        "videos": 4
+      },
+      "usage_after": {
+        "statics": 10,
+        "videos": 5
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-19",
+      "client": "Halo Sleep",
+      "status": "BLOCKED",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "HS-SPRAY"
+      ],
+      "issues": [
+        {
+          "code": "BANNED_CLAIM",
+          "evidence": "copy_direction contains prohibited phrase 'cure'.",
+          "action": "Please remove or rephrase 'cure' under your brand's claims policy."
+        },
+        {
+          "code": "BANNED_CLAIM",
+          "evidence": "copy_direction contains prohibited phrase 'insomnia'.",
+          "action": "Please remove or rephrase 'insomnia' under your brand's claims policy."
+        },
+        {
+          "code": "BANNED_CLAIM",
+          "evidence": "copy_direction contains prohibited phrase 'clinically proven'.",
+          "action": "Please remove or rephrase 'clinically proven' under your brand's claims policy."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 8,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 8,
+        "videos": 2
+      },
+      "clarification_message": "Hi Halo Sleep team — before we can schedule brief BR-19, please help us resolve the following:\n\n- Please remove or rephrase 'cure' under your brand's claims policy.\n- Please remove or rephrase 'insomnia' under your brand's claims policy.\n- Please remove or rephrase 'clinically proven' under your brand's claims policy.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-20",
+      "client": "Halo Sleep",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "HS-KIT"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 8,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 9,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-21",
+      "client": "Halo Sleep",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "HS-PILLOW"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 9,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 11,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-22",
+      "client": "Brightside Kids",
+      "status": "BLOCKED",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "BK-LUNCH"
+      ],
+      "issues": [
+        {
+          "code": "CLIENT_PAUSED",
+          "evidence": "Client account is not active.",
+          "action": "Production is currently paused; we will coordinate account reactivation before scheduling this work."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 3,
+        "videos": 0
+      },
+      "usage_after": {
+        "statics": 3,
+        "videos": 0
+      },
+      "clarification_message": "Hi Brightside Kids team — before we can schedule brief BR-22, please help us resolve the following:\n\n- Production is currently paused; we will coordinate account reactivation before scheduling this work.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-23",
+      "client": "Halo Sleep",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "HS-SPRAY"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 11,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 11,
+        "videos": 3
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-24",
+      "client": "Northpeak Coffee",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "NP-BEAN-HOUSE"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 17,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 18,
+        "videos": 2
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-25",
+      "client": "Lumen Skin",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "LS-MOIST"
+      ],
+      "issues": [
+        {
+          "code": "BANNED_CLAIM",
+          "evidence": "copy_direction contains prohibited phrase 'cura'.",
+          "action": "Please remove or rephrase 'cura' under your brand's claims policy."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 12,
+        "videos": 1
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 1
+      },
+      "clarification_message": "Hi Lumen Skin team — before we can schedule brief BR-25, please help us resolve the following:\n\n- Please remove or rephrase 'cura' under your brand's claims policy.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-26",
+      "client": "Pawfect Treats",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "PT-JERKY-CHK"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 10,
+        "videos": 5
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 5
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-27",
+      "client": "Ridge Outdoor",
+      "status": "PASS",
+      "owner": "Louise",
+      "resolved_products": [
+        "RO-PACK-28"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 10,
+        "videos": 3
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 3
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-28",
+      "client": "Halo Sleep",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "HS-MASK"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 11,
+        "videos": 3
+      },
+      "usage_after": {
+        "statics": 11,
+        "videos": 4
+      },
+      "clarification_message": null
+    },
+    {
+      "id": "BR-29",
+      "client": "Northpeak Coffee",
+      "status": "BLOCKED",
+      "owner": "Louise",
+      "resolved_products": [
+        "NP-SUB"
+      ],
+      "issues": [
+        {
+          "code": "BRAIN_SUPERLATIVE",
+          "evidence": "Unsubstantiated superlative in creative direction.",
+          "action": "Please replace the superlative with factual copy, or provide evidence for Creative Lead review."
+        }
+      ],
+      "approvals": {},
+      "usage_before": {
+        "statics": 18,
+        "videos": 2
+      },
+      "usage_after": {
+        "statics": 18,
+        "videos": 2
+      },
+      "clarification_message": "Hi Northpeak Coffee team — before we can schedule brief BR-29, please help us resolve the following:\n\n- Please replace the superlative with factual copy, or provide evidence for Creative Lead review.\n\nWe will recheck the updated brief before confirming production."
+    },
+    {
+      "id": "BR-30",
+      "client": "Halo Sleep",
+      "status": "PASS",
+      "owner": "Bea A.",
+      "resolved_products": [
+        "HS-MASK"
+      ],
+      "issues": [],
+      "approvals": {},
+      "usage_before": {
+        "statics": 11,
+        "videos": 4
+      },
+      "usage_after": {
+        "statics": 12,
+        "videos": 4
+      },
+      "clarification_message": null
+    }
+  ],
+  "final_usage": {
+    "Northpeak Coffee": {
+      "statics": 18,
+      "videos": 2
+    },
+    "Lumen Skin": {
+      "statics": 12,
+      "videos": 1
+    },
+    "Ridge Outdoor": {
+      "statics": 12,
+      "videos": 3
+    },
+    "Pawfect Treats": {
+      "statics": 12,
+      "videos": 5
+    },
+    "Halo Sleep": {
+      "statics": 12,
+      "videos": 4
+    },
+    "Brightside Kids": {
+      "statics": 3,
+      "videos": 0
+    }
+  }
+}
