@@ -1,4 +1,10 @@
-# Kāsper Production Gate
+<p align="center"><a href="#english">English</a> · <a href="#portugues">Português</a></p>
+
+<a id="english"></a>
+
+# English
+
+## Kāsper Production Gate
 
 **Check creative briefs before a designer starts working.**
 
@@ -6,7 +12,7 @@ I implemented **Option B** to catch incomplete requests, unavailable products, i
 
 I chose B because it solves a daily operational problem with clear, testable decisions. Python handles the rules without extra packages or paid model calls.
 
-## Review the three options
+### Review the three options
 
 | Option | Deliverable |
 |---|---|
@@ -16,7 +22,7 @@ I chose B because it solves a daily operational problem with clear, testable dec
 
 A and C are documents to read. B is the program to run.
 
-## Run B
+### Run B
 
 Requires **Python 3.11+**. Open a terminal in this project folder:
 
@@ -34,7 +40,7 @@ python -m unittest discover -s tests -v
 
 Expected result: **22 tests, OK**. The check date is fixed at **2026-10-13 09:00 UTC**, as required by the exercise.
 
-## Open the documents on Windows
+### Open the documents on Windows
 
 ```powershell
 notepad .\designs\option_a.md
@@ -44,10 +50,70 @@ notepad .\designs\option_c.md
 
 On GitHub, use the links above. On Windows, `py -3` can replace `python`; on macOS/Linux, use `python3`.
 
-## How decisions work
+### How decisions work
 
 Briefs are checked in creation order against the [Definition of Ready](data/option_b_gate/definition_of_ready.md). Only passing briefs consume the remaining allowance. Rush deadlines and overages require the correct Squad Lead’s approval.
 
 For example, BR-15 is blocked because Juliana cannot approve that client’s rush. BR-04 passes because Louise, the Squad Lead, approved it.
 
 See [NOTES.md](NOTES.md) for tool choices, costs, deployment and assumptions. Code is in `gate/`; tests are in `tests/`.
+
+---
+
+<a id="portugues"></a>
+
+# Português
+
+## Kāsper Production Gate
+
+**Verifique os briefings criativos antes de o designer começar a trabalhar.**
+
+Implementei a **Opção B** para identificar pedidos incompletos, produtos indisponíveis, alegações inválidas, prazos irreais e solicitações acima da franquia mensal do cliente. Cada briefing bloqueado inclui o motivo e uma mensagem de esclarecimento.
+
+Escolhi a B porque ela resolve um problema operacional diário com decisões claras e testáveis. O Python aplica as regras sem pacotes extras nem chamadas pagas a modelos.
+
+### Veja as três opções
+
+| Opção | Entrega |
+|---|---|
+| **A — Onboarding** | [Design técnico de uma página](designs/option_a.md) |
+| **B — Production gate** | Ferramenta funcional e [relatório dos 30 briefings](outputs/report.md) |
+| **C — Saúde do squad** | [Design técnico de uma página](designs/option_c.md) |
+
+A e C são documentos para leitura. B é o programa para executar.
+
+### Executar a B
+
+Requer **Python 3.11+**. Abra um terminal na pasta do projeto:
+
+```sh
+python -m gate
+```
+
+Resultado esperado: **19 PASS / 11 BLOCKED**. As saídas são salvas em `outputs/report.md` e `outputs/results.json`.
+
+Executar os testes:
+
+```sh
+python -m unittest discover -s tests -v
+```
+
+Resultado esperado: **22 testes, OK**. A data de verificação é fixa em **13/10/2026 09:00 UTC**, conforme exigido pelo exercício.
+
+### Abrir os documentos no Windows
+
+```powershell
+notepad .\designs\option_a.md
+notepad .\outputs\report.md
+notepad .\designs\option_c.md
+```
+
+No GitHub, use os links acima. No Windows, `py -3` pode substituir `python`; no macOS/Linux, use `python3`.
+
+### Como as decisões funcionam
+
+Os briefings são verificados na ordem de criação conforme a [Definition of Ready](data/option_b_gate/definition_of_ready.md). Apenas os briefings aprovados consomem a franquia restante. Prazos urgentes e excedentes exigem a aprovação do Squad Lead correto.
+
+Por exemplo, o BR-15 é bloqueado porque a Juliana não pode aprovar a urgência desse cliente. O BR-04 passa porque a Louise, Squad Lead, aprovou.
+
+Veja [NOTES.md](NOTES.md) para escolhas de ferramentas, custos, implantação e premissas. O código está em `gate/`; os testes estão em `tests/`.
